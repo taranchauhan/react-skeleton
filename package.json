@@ -22,7 +22,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test --coverage --silent",
     "lint": "eslint --ext js,jsx src --fix",
-    "pre-commit-verify": "npm run test && lint-staged && pretty-quick --staged",
+    "pre-commit-verify": "npm run test && lint-staged && pretty-quick --staged && npm audit",
     "eject": "react-scripts eject"
   },
   "lint-staged": {
@@ -52,8 +52,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm run pre-commit-verify",
-      "pre-push": "npm run pre-commit-verify"
+      "pre-commit": "npm run pre-commit-verify"
     }
   },
   "eslintConfig": {
