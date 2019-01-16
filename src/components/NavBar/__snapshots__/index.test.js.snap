@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<NavBar /> should render the NavBar 1`] = `
+<Styled(header)>
+  <Styled(div)>
+    <Styled(img)
+      alt="Logo"
+      src="logo.png"
+    />
+  </Styled(div)>
+</Styled(header)>
+`;
