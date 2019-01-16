@@ -23,6 +23,7 @@ const App = () => (
 
         <Route exact path="/" component={Home} />
         <Route exact path="/home" component={Home} />
+        <Route exact path="/another-page" component={Home} />
       </div>
     </Router>
   </Wrapper>
