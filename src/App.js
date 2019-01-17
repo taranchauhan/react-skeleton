@@ -1,8 +1,8 @@
 import React from 'react';
 import styled from '@emotion/styled';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
-import NavBar from './components/NavBar';
-import Home from './containers/Home';
+import NavBar from 'components/NavBar';
+import Home from 'containers/Home';
 
 const Wrapper = styled.div`
   width: 100%;
