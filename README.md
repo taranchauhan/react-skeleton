@@ -11,6 +11,10 @@ This repository assumes that you have the following installed:
 1. Node
 2. NPM
 
+```
+NODE_PATH=src/
+```
+
 ## Available Scripts
 
 In the project directory, you can run:
