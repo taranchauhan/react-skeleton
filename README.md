@@ -8,6 +8,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 This repository assumes that you have the following installed:
 
+Create a .env file with the following contents:
+
 1. Node
 2. NPM
 
