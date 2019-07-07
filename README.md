@@ -11,12 +11,6 @@ This repository assumes that you have the following installed:
 1. Node
 2. NPM
 
-Create a .env file with the following contents:
-
-```
-NODE_PATH=src/
-```
-
 ## Available Scripts
 
 In the project directory, you can run:
