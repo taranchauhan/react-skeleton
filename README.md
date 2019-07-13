@@ -2,7 +2,19 @@
 
 React Skeleton is a boilerplate repository for creating a new React web application.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+It includes the following out of the box:
+
+1. Styled components
+2. Jest `npm run test`
+3. Enzyme
+4. Husky pre-commit hooks `npm run pre-commit-verify`
+   1. Test verification and coverage
+   2. ESLint checks
+   3. Prettier formatting checks
+   4. npm audit for dependencies
+5. ESLint
+6. Prettier
+7. jsconfig.json for relative imports from src/ basePath e.g. `import NavBar from 'components/NavBar';`
 
 ## Prerequisites
 
@@ -64,9 +76,3 @@ If you aren’t satisfied with the build tool and configuration choices, you can
 Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
